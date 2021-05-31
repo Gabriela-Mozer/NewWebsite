@@ -6,8 +6,7 @@ portfolioItems.forEach(portfolioItem => {
         // console.log(portfolioItem.childNodes[1].classList);
         portfolioItem.childNodes[1].classList.add('img-darken');
     })
-    portfolioItem.addEventListener('mouseoout', () =>{
-        // console.log(portfolioItem.childNodes[1].classList);
+    portfolioItem.addEventListener('mouseout', () =>{
         portfolioItem.childNodes[1].classList.remove('img-darken');
     })
 
